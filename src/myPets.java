@@ -29,7 +29,7 @@ public class myPets
         return name;
     }
 
-    public boolean isFriendly() {
+    public boolean getIsFriendly() {
         return isFriendly;
     }
 
