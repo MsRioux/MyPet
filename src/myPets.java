@@ -17,40 +17,46 @@ public class myPets
 
     //4 Getters
 
-    public double getAmtSleep() {
-        return amtSleep;
-    }
+        public double getAmtSleep() {
+            return amtSleep;
+        }
 
-    public String getFoodType() {
-        return foodType;
-    }
+        public String getFoodType() {
+            return foodType;
+        }
 
-    public String getName() {
-        return name;
-    }
+        public String getName() {
+            return name;
+        }
 
-    public boolean getIsFriendly() {
-        return isFriendly;
-    }
+        public boolean getIsFriendly() {
+            return isFriendly;
+        }
 
-    //5 Setters
+        //5 Setters
 
 
-    public void setAmtSleep(double amtSleep) {
-        this.amtSleep = amtSleep;
-    }
+        public void setAmtSleep(double amtSleep) {
+            this.amtSleep = amtSleep;
+        }
 
-    public void setFoodType(String foodType) {
-        this.foodType = foodType;
-    }
+        public void setFoodType(String foodType) {
+            this.foodType = foodType;
+        }
 
-    public void setIsFriendly(boolean isFriendly) {
-        this.isFriendly = isFriendly;
-    }
+        public void setIsFriendly(boolean isFriendly) {
+            this.isFriendly = isFriendly;
+        }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+        public void setName(String name) {
+            this.name = name;
+        }
+
+    //6 Brain Methods
+        public int sleepInSeconds()
+        {
+            return (int)(amtSleep * 3600);
+        }
 
     //3 toString
         public String toString()

@@ -12,7 +12,7 @@ public class AllMyPets
                     "rats", 0.5, "Jgerome");
 //        System.out.println(jgerome.toString());
 
-        //testing getters and setters
+        /*testing getters and setters
         testPet.setName("NaMe");
         System.out.println("Test pet is now named: " + testPet.getName());
 
@@ -21,5 +21,8 @@ public class AllMyPets
 
         jgerome.setIsFriendly(false);
         System.out.println("Jgerome's current friendliness: " + jgerome.getIsFriendly());
+        */
+        //testing brain method
+        System.out.println("Jgerome's sleep in seconds: " + jgerome.sleepInSeconds());
     }//end main method
 }//end driver class AllMyPets
