@@ -4,9 +4,9 @@ public class Frog extends myPets
     private boolean isPoisonous;
     //2 Constructors
     public Frog (boolean isPoisonous, boolean isFriendly, String foodType,
-                 double amtSleep, String name)
+                 double amtSleep, String name, int age)
     {
-        super (isFriendly, foodType, amtSleep, name);
+        super (isFriendly, foodType, amtSleep, name, age);
         this.isPoisonous = isPoisonous;
     }
 
@@ -20,6 +20,20 @@ public class Frog extends myPets
 
     public void setIsPoisonous(boolean isPoisonous) {
         this.isPoisonous = isPoisonous;
+    }
+
+    //brain method
+    @Override
+    public int monthlyFeedings()
+    {
+        int numFeeds = 30;
+        //1y+ once a week,
+        //younger, every day
+        if( age >= 1)
+        {
+            numFeeds = 4;
+        }
+        return numFeeds;
     }
 
     //3 ToString

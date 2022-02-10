@@ -6,9 +6,9 @@ public class Hamster extends myPets
 
     //2 Constructors
     public Hamster (boolean needToEx, boolean needsGrooming, boolean isFriendly,
-                        String foodType, double amtSleep, String name )
+                        String foodType, double amtSleep, String name, int age )
     {
-        super(isFriendly, foodType, amtSleep, name);
+        super(isFriendly, foodType, amtSleep, name, age);
         this.needToEx = needToEx;
         this.needsGrooming = needsGrooming;
     }
