@@ -6,7 +6,11 @@ public class AllMyPets
         System.out.println(testPet.toString() + "\n");
 
         Frog shrimp = new Frog(false, true, "worms", 6, "Shrimp");
-        System.out.println(shrimp.toString());
+        System.out.println(shrimp.toString()+ "\n");
+
+        Hamster jgerome = new Hamster(false, true, true,
+                    "rats", 0.5, "Jgerome");
+        System.out.println(jgerome.toString());
 
     }
 }
